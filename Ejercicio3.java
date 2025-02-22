@@ -15,7 +15,7 @@ import java.util.Map;
  */
 public class Ejercicio3 {
      public static List<List<Integer>> findMatrix(int[] nums) {
-        // Lista de listas para almacenar el resultado (matriz 2D)
+        // Lista de listas para almacenar el resultado 
         List<List<Integer>> result = new ArrayList<>();
         
         // Mapa para rastrear en qué fila se encuentra cada número
@@ -42,12 +42,11 @@ public class Ejercicio3 {
     }
 
     public static void main(String[] args) {
-        // Ejemplo 1
+       
         int[] nums1 = {1, 3, 4, 1, 2, 3, 1};
-        System.out.println(findMatrix(nums1)); // Salida: [[1, 3, 4, 2], [1, 3], [1]]
-
-        // Ejemplo 2
+        System.out.println(findMatrix(nums1));
+       
         int[] nums2 = {1, 2, 3, 4};
-        System.out.println(findMatrix(nums2)); // Salida: [[1, 2, 3, 4]]
+        System.out.println(findMatrix(nums2));
     }
 }

@@ -41,13 +41,13 @@ public class Ejercicio2 {
     }
     
      public static void main(String[] args) {
-        // Ejemplo 1
+       
         int[] groupSizes1 = {3, 3, 3, 3, 3, 1, 3};
-        System.out.println(groupThePeople(groupSizes1)); // Salida: [[0, 1, 2], [3, 4, 6], [5]]
+        System.out.println(groupThePeople(groupSizes1)); 
 
-        // Ejemplo 2
+
         int[] groupSizes2 = {2, 1, 3, 3, 3, 2};
-        System.out.println(groupThePeople(groupSizes2)); // Salida: [[0, 5], [1], [2, 3, 4]]
+        System.out.println(groupThePeople(groupSizes2)); 
     }
      
 }
